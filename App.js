@@ -1,10 +1,10 @@
 import React from 'react';
-import { View , Text , StyleSheet } from 'react-native';
-import MainNavigation from './src/config/Navigation'
+import { View , StyleSheet  , Text } from 'react-native';
+import MyStack from './src/config/Navigation'
 export default function App(){
   return(
     <View style={styles.container} >
-     <MainNavigation />
+     <MyStack />
     </View>
   )
 }
